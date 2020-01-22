@@ -39,7 +39,6 @@ requirements = [
     'numpy',
     'scipy>=0.17',
     'scikit-image',
-    'opencv-python',
     'tqdm',
     'enum34;python_version<"3.4"'
 ]
