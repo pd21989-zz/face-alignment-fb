@@ -35,13 +35,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as readme_file:
 
 VERSION = find_version('face_alignment', '__init__.py')
 
-requirements = [
-    'numpy',
-    'scipy>=0.17',
-    'scikit-image',
-    'tqdm',
-    'enum34;python_version<"3.4"'
-]
+requirements = []
 
 setup(
     name='face_alignment',
